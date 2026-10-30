@@ -1,6 +1,6 @@
 {
   "name": "@sazm/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Official SazM CLI: website speed audit, TTFB diagnostic, and Core Web Vitals analyzer by SazM.",
   "type": "module",
   "bin": {
