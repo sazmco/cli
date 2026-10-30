@@ -1,5 +1,5 @@
 {
-  "name": "sazm",
+  "name": "@sazm/cli",
   "version": "1.0.0",
   "description": "Official SazM CLI: website speed audit, TTFB diagnostic, and Core Web Vitals analyzer by SazM.",
   "type": "module",
@@ -38,6 +38,9 @@
     "url": "https://github.com/sazmco/cli/issues"
   },
   "homepage": "https://sazm.in",
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=18.0.0"
   }

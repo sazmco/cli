@@ -1,10 +1,10 @@
-# sazm
+# @sazm/cli
 
 > Official SazM CLI & SDK: live website speed audit, TTFB diagnostic, and latency waterfall analyzer.
 
 Maintained by **[SazM](https://sazm.in)** — 20+ years in production engineering (since Oct 2006).
 
-[![npm version](https://img.shields.io/npm/v/sazm.svg)](https://www.npmjs.com/package/sazm)
+[![npm version](https://img.shields.io/npm/v/@sazm/cli.svg)](https://www.npmjs.com/package/@sazm/cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![SazM Speed Audit](https://img.shields.io/badge/Online%20Audit-sazm.in%2Faudit-emerald)](https://sazm.in/audit)
 
@@ -15,7 +15,7 @@ Maintained by **[SazM](https://sazm.in)** — 20+ years in production engineerin
 No installation needed — run audits instantly against any domain or URL:
 
 ```bash
-npx sazm audit https://sazm.in
+npx @sazm/cli audit https://sazm.in
 ```
 
 Example terminal output:
@@ -43,7 +43,7 @@ Example terminal output:
 ## Global CLI Installation
 
 ```bash
-npm install -g sazm
+npm install -g @sazm/cli
 ```
 
 ### Commands
@@ -63,7 +63,7 @@ npm install -g sazm
 You can also use the SazM diagnostic engine directly inside Node.js applications:
 
 ```javascript
-import { auditWebsite } from 'sazm';
+import { auditWebsite } from '@sazm/cli';
 
 const result = await auditWebsite('https://sazm.in');
 
